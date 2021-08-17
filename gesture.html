@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gesture controller</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Portfolio-Seok Hoon</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">홈</a></li>
+							<li><a href="seokhoon.html">자기소개</a></li>
+							<li><a href="gesture.html">제스쳐 컨트롤러</a></li>
+							<li><a href="smart stick.html">스마트 지팡이</a></li>
+							<li><a href="https://www.instagram.com/not_sgwannabe/?hl=ko">인스타그램</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Gesture controller</h1>
+							<span class="image main"><iframe width="1000" height="600" src="https://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=727CC41EB36808D4285E757BD6F9E80411AA&outKey=V129c71277380cec5381df85f5da177373136afb7a6e024062196f85f5da177373136" frameborder="no" scrolling="no" title="NaverVideo" allow="autoplay; gyroscope; accelerometer; encrypted-media" allowfullscreen></iframe></span>
+							<p>스마트 지팡이와 마찬가지로 공과대학 학술제에 전시하기 위해 진행한 프로젝트로 2020년에 제작한 작품 입니다. <br>
+							   제스쳐 컨트롤러를 이용해 구동체를 조종하며 버튼식이 아닌 손의 움직임을 이용해 조종하는것이 특징 입니다. <br> 
+							   작품은 아두이노 기반의 제스쳐 센서와 블루투스 모듈을 이용해서 컨트롤러를 제작하였으며, 구동체는 <br>
+							    모터를 이용해 바퀴를 움직이고 서보모터를 이용해 방향을 제어합니다. <br>
+							   블루투스와 모터 구동시에는 5V, 제스쳐 센서의 경우에는 3.3V의 전압이 안정적으로 전달되어야 하기 때문에 <br>
+							    레귤레이터를 이용하여 전압 강하에 대비하였습니다. <br>
+							   </p>
+							<p>인식할 수 있는 제스쳐는 UP, DOWN, LEFT, RIGHT, FAR, NEAR 이렇게 6가지가 있습니다. <br>
+								UP과 DOWN은 각각 전진과 후진을 구현하였으며 FAR와 NEAR는 멈추는 기능을 구현하였습니다. <br>
+								처음 계획때는 건전지를 이용하고, 건전지의 잔량을 확인하기 위해 배터리잔량 표시기를 추가 할 계획이었으나 <br>
+								건전지의 전류량이 적어 모터가 구동하지 않는 문제가 발생하여 보조배터리를 사용하는 방식으로 교체하였습니다. <br>
+							    </p>
+							<p>  </p>
+						</div>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<h2>Info</h2>
+							<form method="post" action="#">
+								<div id="foot_info">
+									이석훈
+								</div>
+								<div id="foot_info">
+									010-5752-2100
+								</div>
+								<div class="fields">
+									<div class="field half">
+										<div id="foot_info">
+											<a id="mail_" href="mailto:yiseokhoon@naver.com">yiseokhoon@naver.com</a>
+										</div>	
+									</div>
+									
+									<div id="foot_info">
+										끝까지 봐주셔서 감사합니다. <br>
+										잘 부탁드립니다.			
+										
+							
+									</div>
+								</div>
+								
+							</form>
+						</section>
+						
+						<ul class="copyright">
+							<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+		</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</body>
+</html>
